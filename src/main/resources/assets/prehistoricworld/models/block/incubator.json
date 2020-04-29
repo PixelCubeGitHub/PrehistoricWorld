@@ -1,0 +1,9 @@
+{
+  "parent": "prehistoricworld:custom/incubator",
+  "textures": {
+    "all": "prehistoricworld:blocks/incubator",
+    "particle": "prehistoricworld:blocks/incubator",
+    "3": "prehistoricworld:blocks/incubator",
+    "missing": "prehistoricworld:blocks/"
+  }
+}

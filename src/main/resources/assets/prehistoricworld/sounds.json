@@ -1,0 +1,29 @@
+{
+  "hurt-sound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "prehistoricworld:hurt-sound",
+        "stream": false
+      }
+    ]
+  },
+  "living-sound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "prehistoricworld:living_sound",
+        "stream": false
+      }
+    ]
+  },
+  "death-sound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "prehistoricworld:death-sound",
+        "stream": false
+      }
+    ]
+  }
+}

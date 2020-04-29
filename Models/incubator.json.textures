@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "incubator",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "prehistoricworld:embryochamber"
+    },
+    "facing=north": {
+      "model": "prehistoricworld:embryochamber"
+    },
+    "facing=east": {
+      "model": "prehistoricworld:embryochamber",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prehistoricworld:embryochamber",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prehistoricworld:embryochamber",
+      "y": 270
+    }
+  }
+}

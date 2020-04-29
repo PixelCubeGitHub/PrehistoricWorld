@@ -1,0 +1,8 @@
+{
+  "parent": "prehistoricworld:custom/dna_combinator_open",
+  "textures": {
+    "all": "prehistoricworld:blocks/dna_combinator",
+    "particle": "prehistoricworld:blocks/dna_combinator",
+    "0": "prehistoricworld:blocks/dna_combinator"
+  }
+}

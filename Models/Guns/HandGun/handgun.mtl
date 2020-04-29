@@ -1,0 +1,6 @@
+# Made in Blockbench 3.3.1
+newmtl 1
+map_Kd grey ligjt 
+newmtl 2
+map_Kd grey.png 
+newmtl none

@@ -1,0 +1,9 @@
+{
+  "parent": "prehistoricworld:custom/bonelet_sieve",
+  "textures": {
+    "all": "prehistoricworld:blocks/bonelet_sieve",
+    "particle": "prehistoricworld:blocks/bonelet_sieve",
+    "0": "prehistoricworld:blocks/bonelet_sieve",
+    "missing": "prehistoricworld:blocks/"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 685,
+    "height": 396,
+    "renderBgLayer": true,
+    "components": []
+  }
+}

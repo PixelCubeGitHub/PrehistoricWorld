@@ -1,0 +1,38 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 685,
+    "height": 396,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Info",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Info",
+          "x": 102,
+          "y": 60
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Version 0.3.3",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Version 0.3.3",
+          "x": 102,
+          "y": 402
+        }
+      }
+    ]
+  }
+}

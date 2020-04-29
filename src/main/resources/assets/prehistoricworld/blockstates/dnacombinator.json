@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "prehistoricworld:dnacombinator"
+    },
+    "facing=north": {
+      "model": "prehistoricworld:dnacombinator"
+    },
+    "facing=east": {
+      "model": "prehistoricworld:dnacombinator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "prehistoricworld:dnacombinator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "prehistoricworld:dnacombinator",
+      "y": 270
+    }
+  }
+}
