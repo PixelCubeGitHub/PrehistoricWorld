@@ -3,7 +3,7 @@
     "default": {
       "map": {
         "3": "incubator",
-        "missing": ""
+        "missing": "incubator"
       },
       "name": "default"
     }

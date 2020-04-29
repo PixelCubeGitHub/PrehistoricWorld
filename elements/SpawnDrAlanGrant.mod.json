@@ -20,7 +20,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "onRightClickedInAir": {
+    "onRightClickedOnBlock": {
       "name": "SpawnDrAlanGrantProcedure"
     }
   }

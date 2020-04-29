@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Dr Alan Grant",
     "mobLabel": "",
-    "mobModelTexture": "dralangrant.png",
+    "mobModelTexture": "dralangrantgui.png",
     "mobModelName": "Biped",
     "modelWidth": 0.6,
     "modelHeight": 1.8,

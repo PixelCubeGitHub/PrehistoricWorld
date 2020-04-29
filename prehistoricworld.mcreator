@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 4,
-    "ENTITY": 6
+    "ENTITY": 6,
+    "GUI": 4
   },
   "mod_elements": [
     {
@@ -411,14 +411,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Tu",
-      "type": "code",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": true,
       "ids": {}
     }
   ],
