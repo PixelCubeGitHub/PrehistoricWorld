@@ -14,7 +14,6 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumFacing;
-import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
@@ -68,12 +67,6 @@ public class BlockEmbryoChamber extends ElementsPrehistoricWorld.ModElement {
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 
-		@SideOnly(Side.CLIENT)
-		@Override
-		public BlockRenderLayer getBlockLayer() {
-			return BlockRenderLayer.CUTOUT_MIPPED;
-		}
-
 		@Override
 		protected net.minecraft.block.state.BlockStateContainer createBlockState() {
 			return new net.minecraft.block.state.BlockStateContainer(this, new IProperty[]{FACING});
@@ -103,11 +96,6 @@ public class BlockEmbryoChamber extends ElementsPrehistoricWorld.ModElement {
 		public IBlockState getStateForPlacement(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta,
 				EntityLivingBase placer) {
 			return this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite());
-		}
-
-		@Override
-		public boolean isOpaqueCube(IBlockState state) {
-			return false;
 		}
 
 		@Override
