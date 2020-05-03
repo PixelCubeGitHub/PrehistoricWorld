@@ -2,29 +2,6 @@
   "variants": {
     "normal": {
       "model": "prehistoricworld:incubator"
-    },
-    "facing=north": {
-      "model": "prehistoricworld:incubator"
-    },
-    "facing=east": {
-      "model": "prehistoricworld:incubator",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "prehistoricworld:incubator",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "prehistoricworld:incubator",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "prehistoricworld:incubator",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "prehistoricworld:incubator",
-      "x": 90
     }
   }
 }

@@ -63,7 +63,7 @@ public class EntityDrAlanGrant extends ElementsPrehistoricWorld.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
 			RenderBiped customRender = new RenderBiped(renderManager, new ModelBiped(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("prehistoricworld:textures/dralangrant.png");
+					return new ResourceLocation("prehistoricworld:textures/dralangrantgui.png");
 				}
 			};
 			customRender.addLayer(new net.minecraft.client.renderer.entity.layers.LayerBipedArmor(customRender) {
