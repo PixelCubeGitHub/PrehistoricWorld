@@ -109,16 +109,6 @@
       "ids": {}
     },
     {
-      "name": "Wiki",
-      "type": "gui",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 2
-      }
-    },
-    {
       "name": "Info",
       "type": "gui",
       "sortid": 13,
@@ -126,46 +116,6 @@
       "locked_code": false,
       "ids": {
         "0": 3
-      }
-    },
-    {
-      "name": "WikiKeyBinding",
-      "type": "keybind",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "WikiKeyBindingOnKeyPressed",
-      "type": "procedure",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
       }
     },
     {
@@ -207,17 +157,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "Triceratops",
-      "type": "mob",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 3,
-        "1": 4
-      }
     },
     {
       "name": "Incubator",
@@ -453,10 +392,8 @@
       "tile.bonletsieve.name": "Bonlet Sieve",
       "itemGroup.tabprehistoricores": "Ores",
       "item.spawndralangrant.name": "Spawn Dr. Alan Grant",
-      "entity.triceratops.name": "Triceratops",
       "tile.incubatoropen.name": "Incubator Open",
       "tile.amberore.name": "Amber Ore",
-      "key.mcreator.wikikeybinding": "Wiki Key Binding",
       "tile.dnacombinatoropen.name": "DNA Combinator",
       "item.amber.name": "Amber"
     }

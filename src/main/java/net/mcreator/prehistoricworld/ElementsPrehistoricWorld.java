@@ -34,7 +34,6 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
-import net.mcreator.prehistoricworld.gui.GuiWiki;
 import net.mcreator.prehistoricworld.gui.GuiInfo;
 import net.mcreator.prehistoricworld.gui.GuiDrAlanGrantGui;
 
@@ -135,8 +134,6 @@ public class ElementsPrehistoricWorld implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiWiki.GUIID)
-				return new GuiWiki.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiInfo.GUIID)
 				return new GuiInfo.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiDrAlanGrantGui.GUIID)
@@ -146,8 +143,6 @@ public class ElementsPrehistoricWorld implements IFuelHandler, IWorldGenerator {
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-			if (id == GuiWiki.GUIID)
-				return new GuiWiki.GuiWindow(world, x, y, z, player);
 			if (id == GuiInfo.GUIID)
 				return new GuiInfo.GuiWindow(world, x, y, z, player);
 			if (id == GuiDrAlanGrantGui.GUIID)
